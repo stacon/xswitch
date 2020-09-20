@@ -5,10 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = exports.xswitch = void 0;
 
-var _validateInput = _interopRequireDefault(require("./validateInput"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
 var xswitch = function xswitch() {
   for (var _len = arguments.length, cases = new Array(_len), _key = 0; _key < _len; _key++) {
     cases[_key] = arguments[_key];
@@ -29,7 +25,5 @@ var xswitch = function xswitch() {
 };
 
 exports.xswitch = xswitch;
-
-var _default = (0, _validateInput["default"])(xswitch);
-
+var _default = xswitch;
 exports["default"] = _default;
