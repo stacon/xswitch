@@ -1,6 +1,6 @@
 # xswitch
 
-xswitch (or expressive switch) aims to replace ```if - else``` usage and ``` switch ```` logic as well with a functional twist. Also, xswitch uses predicate functions as cases and returns ```undefined``` when no predicate case has been met.
+xswitch (or expressive switch) aims to replace `if - else` usage and ` switch ` logic as well with a functional twist. Also, xswitch uses predicate functions as cases and returns `undefined` when no predicate case has been met.
 
 ## Example Usage
 ```
@@ -25,7 +25,7 @@ const result = xswitch(
 )
 ```
 
-The example above will return: "x:1 is equal to z:1"
+The example above will return: `x:1 is equal to z:1`
 
 ...Will enrich read me and will publish this package soon
 
