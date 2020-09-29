@@ -1,6 +1,6 @@
 {
-  "name": "xswitch",
-  "version": "0.1.0",
+  "name": "@stacon/xswitch",
+  "version": "1.0.0",
   "description": "An expressive functional switch",
   "main": "dist/index.js",
   "scripts": {
