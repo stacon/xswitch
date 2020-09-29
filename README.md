@@ -27,5 +27,3 @@ const result = xswitch(
 
 The example above will return: `x:1 is equal to z:1`
 
-...Will enrich read me and will publish this package soon
-
