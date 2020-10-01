@@ -8,7 +8,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "transpile": "babel ./src --out-dir ./dist",
+    "transpile": "npx babel ./src --out-dir ./dist",
     "clean:dist": "rimraf ./dist"
   },
   "repository": {
@@ -32,7 +32,6 @@
     "@babel/core": "^7.11.6",
     "@babel/plugin-transform-modules-commonjs": "^7.10.4",
     "@babel/preset-env": "^7.11.5",
-    "babel": "^6.23.0",
     "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
